@@ -1,6 +1,6 @@
 package OOPS.classes_objects;
 
-public class Emloyee {
+public class Employee {
     String name;
     int id;
     int salary;
@@ -12,15 +12,15 @@ public class Emloyee {
 
     }
     public static void main(String[] args){
-        Emloyee ob=new Emloyee();
+        Employee ob=new Employee();
         ob.name="abhi";
         ob.id=001;
         ob.salary=500000;
-        Emloyee ob1=new Emloyee();
+        Employee ob1=new Employee();
         ob1.name="bhumit";
         ob1.id=002;
         ob1.salary=47000;
-        Emloyee ob2=new Emloyee();
+        Employee ob2=new Employee();
         ob2.name="ajay";
         ob2.id=003;
         ob2.salary=22000;
